@@ -4,6 +4,13 @@ html {
   overflow-x: hidden;
 }
 
+@media only screen and (max-width: 767px) {
+body {
+/* The file size of this background image is 93% smaller
+ * to improve page load speed on mobile internet connections */
+background-image: url(images/bg/logo2.png);}
+}
+
 body {
   line-height: 1.7;
   font-family: "Montserrat", sans-serif;
