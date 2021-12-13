@@ -4,13 +4,6 @@ html {
   overflow-x: hidden;
 }
 
-@media only screen and (max-width: 767px) {
-body {
-/* The file size of this background image is 93% smaller
- * to improve page load speed on mobile internet connections */
-background-image: url(images/bg/logo2.png);}
-}
-
 body {
   line-height: 1.7;
   font-family: "Montserrat", sans-serif;
@@ -1786,7 +1779,7 @@ h3.quote::before {
 }
 .our-team {
   padding: 50px 0px;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 .our-team h2{
 margin-bottom: 40px;
@@ -1804,7 +1797,7 @@ color: #333;
   padding: 5px;
 }
 .box-bg {
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: 20px 20px;
   border: 2px solid #e2e2e2;
   border-top-left-radius: 40px;
