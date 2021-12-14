@@ -360,7 +360,23 @@ background-position: center;">
 									<h4 class="text-center">Aman Tripathi</h4>
 									<h6 class="text-center">Project Director</h6>
 									<p class="text-center">i will write somthing when i get some details.</p>
-									<a href="#">Read More</a>
+									<a><button type="button" class="btn btn-outline-secondary" id="btn1">Read More</button></a>
+											<!-- .modal -->
+									<div class="modal fade" id="Mymodal1">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h4 class="modal-title">
+														Vikas Pathak
+													</h4>
+													<button type="button" class="close" data-dismiss="modal">×</button> 													
+												</div> 												
+												<img src="https://i.ytimg.com/vi/iZHoBVO0jqg/maxresdefault.jpg" style="height:auto; width:100%;">
+												<p>My self Vicky n i'm modifying this website.
+											</p>
+												</div>   												
+											</div>                                                                       
+										</div> 
 								</div>
 								<div class="social-links">
 									<h4 class="text-center">Follow Me</h4>
@@ -730,6 +746,13 @@ background-position: center;">
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&amp;callback=initMap"></script>
 
 	<script src="js/script.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#btn1').click(function(){
+			  $('#Mymodal1').modal('show')
+			});
+		});
+	</script>
 
 </body>
 
